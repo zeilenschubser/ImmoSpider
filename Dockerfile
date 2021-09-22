@@ -1,6 +1,7 @@
 FROM kennethreitz/pipenv
 
-COPY . /app
+#COPY . /app
+WORKDIR /app
 
 COPY yacrontab.yaml /etc/yacron.d/yacrontab.yaml
 
